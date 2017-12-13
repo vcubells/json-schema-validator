@@ -13,7 +13,7 @@ public class App
 	{
 
 		/* Ejemplo 1 */
-		JsonSchemaValidator wrapperWithURL = new JsonSchemaValidator();	
+		JsonSchemaValidator wrapperWithURL = new JsonSchemaValidator();
 
 		URL url = new URL("http://localhost:81/persona.schema");
 
@@ -21,8 +21,8 @@ public class App
 
 		System.out.println("--- Ejemplo 1: Obteniendo Schema de una URL ---");
 		System.out.println(wrapperWithURL);
-		
-		
+
+
 		/* Ejemplo 2 */
 		JsonSchemaValidator wrapperFromLocalResources = new JsonSchemaValidator();	
 
